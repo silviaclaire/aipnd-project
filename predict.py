@@ -11,7 +11,7 @@ from model import create_model
 from utils import line, Params
 
 
-parser = argparse.ArgumentParser(description='Train a new network on a dataset.')
+parser = argparse.ArgumentParser(description='Predict flower name from an image.')
 
 parser.add_argument('image_filepath', action='store',
                     help='Filepath of an image')
